@@ -90,4 +90,19 @@ button:disabled{
     cursor: not-allowed;
     transform: scale(1);
 }
+@media screen and (max-width: 767px) {
+    .circle {
+        width: 40px;
+        height: 40px;
+    }
+    .numbers{
+        width: 80vw;
+    }
+    .numbers::before {
+        width: 80vw;
+    }
+    button {
+        padding: 1vh 5vw;
+    }
+}
 /* End button section */
